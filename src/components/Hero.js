@@ -20,8 +20,8 @@ const Hero = () => {
   //   };
 
   return (
-    <div style={{ backgroundImage: pic }}>
-      <img src={pic} alt="pics" />
+    <div style={{ backgroundImage: require("../Images/cake1.jpg") }}>
+      {/* <img src={pic} alt="pics" /> */}
       <Navbar toggle={toggle}></Navbar>
       <Sidebar show={show} toggle={toggle}></Sidebar>
       <div className="content">
