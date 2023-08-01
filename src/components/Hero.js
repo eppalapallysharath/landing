@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Navbar from "./Navbar";
 import "./Hero.css";
 import Sidebar from "./Sidebar";
-import pic from "../Images/hero-cake.jpg";
+// import pic from "../Images/hero-cake.jpg";
 
 const Hero = () => {
   const [show, setShow] = useState(false);
@@ -10,18 +10,17 @@ const Hero = () => {
   const toggle = () => {
     setShow(!show);
   };
-  const styles = {
-    backgroundImage: `url(${pic})`,
-    height: "100vh",
-    backgroundPosition: "center",
-    backgroundSize: "cover",
-    backgroundAttachment: "fixed",
-    /* Add more styles here */
-  };
+  //   const styles = {
+  //     backgroundImage: `url(${pic})`,
+  //     height: "100vh",
+  //     backgroundPosition: "center",
+  //     backgroundSize: "cover",
+  //     backgroundAttachment: "fixed",
+  //     /* Add more styles here */
+  //   };
 
   return (
-    <div style={styles}>
-      {/* <img src={pic} alt="pics" /> */}
+    <div className="hero-css">
       <Navbar toggle={toggle}></Navbar>
       <Sidebar show={show} toggle={toggle}></Sidebar>
       <div className="content">
