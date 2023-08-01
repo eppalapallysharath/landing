@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Navbar from "./Navbar";
 import "./Hero.css";
 import Sidebar from "./Sidebar";
-import pic from "../Images/hero-cake.jpg";
+// import pic from "../Images/hero-cake.jpg";
 
 const Hero = () => {
   const [show, setShow] = useState(false);
