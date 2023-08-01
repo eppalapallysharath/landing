@@ -24,8 +24,8 @@ const Hero = () => {
       <Navbar toggle={toggle}></Navbar>
       <Sidebar show={show} toggle={toggle}></Sidebar>
       <div className="content">
-        <div className="contentItems">
-          <h1 className="navHead">Yummy and beautiful desserts</h1>
+        <div className="contentItems hero-css">
+          <h1 className="navHead ">Yummy and beautiful desserts</h1>
           <p>
             A local favorite for 83+ years. Featuring our famous donuts ice
             cream and our cakes. Full menu offered all day and late night. Full
