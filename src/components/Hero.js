@@ -10,14 +10,14 @@ const Hero = () => {
   const toggle = () => {
     setShow(!show);
   };
-  const styles = {
-    background: pic,
-    height: "100vh",
-    backgroundPosition: "center",
-    backgroundSize: "cover",
-    backgroundAttachment: "fixed",
-    /* Add more styles here */
-  };
+  //   const styles = {
+  //     background: pic,
+  //     height: "100vh",
+  //     backgroundPosition: "center",
+  //     backgroundSize: "cover",
+  //     backgroundAttachment: "fixed",
+  //     /* Add more styles here */
+  //   };
 
   return (
     <div style={{ backgroundImage: pic }}>
