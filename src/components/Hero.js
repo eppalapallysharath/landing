@@ -20,7 +20,7 @@ const Hero = () => {
   };
 
   return (
-    <div style={styles}>
+    <div style={{ backgroundImage: pic }}>
       <img src={pic} alt="pics" />
       <Navbar toggle={toggle}></Navbar>
       <Sidebar show={show} toggle={toggle}></Sidebar>
