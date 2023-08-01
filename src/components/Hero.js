@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Navbar from "./Navbar";
 import "./Hero.css";
 import Sidebar from "./Sidebar";
+import img from "../Images/hero-cake.jpg";
 
 const Hero = () => {
   const [show, setShow] = useState(false);
@@ -9,9 +10,17 @@ const Hero = () => {
   const toggle = () => {
     setShow(!show);
   };
+  const styles = {
+    background: img,
+    height: "100vh",
+    backgroundPosition: "center",
+    backgroundSize: "cover",
+    backgroundAttachment: "fixed",
+    /* Add more styles here */
+  };
 
   return (
-    <div className="c">
+    <div className="c" style={styles}>
       <Navbar toggle={toggle}></Navbar>
       <Sidebar show={show} toggle={toggle}></Sidebar>
       <div className="content">
