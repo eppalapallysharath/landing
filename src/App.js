@@ -1,11 +1,12 @@
-import React from 'react';
-import './App.css';
-import Mainpage from './Mainpage';
+import React from "react";
+import "./App.css";
+import Mainpage from "./Mainpage";
 
 function App() {
   return (
     <div className="App">
-      <Mainpage/>
+      <h1>hello wolrsd</h1>
+      <Mainpage />
     </div>
   );
 }
